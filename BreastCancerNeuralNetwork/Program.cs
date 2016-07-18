@@ -8,7 +8,7 @@ namespace BreastCancerNeuralNetwork
     {
         #region Input Variables
         // Path to source data file
-        private static readonly string sourceFile = Path.Combine(Environment.CurrentDirectory, "breast-cancer-wisconsin.csv");
+        private static readonly string sourceFile = Path.Combine(Environment.CurrentDirectory, "data", "breast-cancer-wisconsin.csv");
 
         // Number of input neurons, hidden neurons and output neurons
         private static readonly int[] inputColumns = {0, 1, 2, 3, 4, 5, 6, 7, 8};
